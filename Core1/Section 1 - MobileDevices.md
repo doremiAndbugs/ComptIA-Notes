@@ -8,7 +8,7 @@ source: Professor Messer - CompTIA A+ Core 1
 ---
 
 
-# Laptop Hardware
+# 1. Laptop Hardware
 
 A laptop is a standard computing platform that fits a lot of technology into a small space. The trade-off is that troubleshooting means dealing with very small components, built to precise specifications.
 
@@ -134,92 +134,89 @@ ut some of the componenets
 
 different processes for managin and troubleshooting their systems
 
-## Laptop batteries
+# 2. Mobile Device Configuration
 
-with some batteries are modular an can be remove and replace , other are bult in to the systrme and not desing to be swapped ut by the users (so more diff to take of)
+## 1. Connecting mobile devices
 
-Li ION - LIPO
-no memory effect , chargin the abttery deos not diminish the capcity 
+Mobile devices can connect ot other devices using two main types of connectivity :
+- **Wired connectivity** : Use physical cable and connector
+- **Wireless connectivity :** Uses radio signals to communicate without cable
+These connections are used for more than just charging a device. They can also be used to :
+- Transfer and synchronize data
+-  Back up device information
+- Connect peripherals and external devices
+- Identify or authenticate a device
 
-differnte fomr for each laptop , types an dstyle ca,n very 
+### 1. 1 USB (Universal Serial Bus)
 
-## Keyboard : most used component of the laptop
+USB is one of the most common standards used to connect mobile devices to computers and other equipment.
 
-can be easy to replace : a few screens and a single ribbon cable
-but not always this simple.
-if problem with it : diagnosis you coul plug usb keyboard to sse the results , hel p trouble it problem is with kb or OS 
+Over time different USB connector types have been introduced : 
 
-laptop have to be compact to fit evrything th ayou'll find on a regular keyboard.
+**Common USB connectors**:
 
-### Laptop keys
+Connector      Description
+___
+USB Type-A    Traditional rectangular conencotr, commonly found on computer
+___
+Mini-USB         Older, relatively small connector used on some mobile devices
+___
+Micro-USB       Smaller connector widely used in older smartphones and other portable devices
+___
+USB Type-C     Modern, reversible connecotr used by many current devices. 24 pins
 
-problem with key cap : may need to replace a single key on that keyboard on desktop system ths key ares robust , but on laptob this ekey are fragile.
+### 1.2 USB-C
 
-## Laptop memory
+modern USB connecotr designed to be easier to use and more versatile than older connecotrs.
 
-internal comp are in a smaller form farctor
+**Key characteristics:**
+- Reversible design : can be inserted in either orientation
+-  24 pins
+- Multiple capabilities : data transfer, power delivery and HDMI
+- Different protocols : DisplayPort and ThunderBolt
 
-### SO- DIMM 
-easy to remove and replace , but not all laptop provide this lever of modularity. sometims its soldered to the system board, so you have to upgrade the whole system board to improve the memory.
+This can easily replace the older USB 2.0 connection all the way up to the latest standard of USB, and we can even put different types of signals on this wire, even though they are all using the same type of connector as its physical interface. For example, you might find that this USB connection is used for more than just serial connectivity. You could see DisplayPort, HDMI, and thunderbolt all can use that single connector to be able to transmit video, data and other information.
 
-To add or replace, there is usually a slot in the back (push and locks in place )
-MAgnetic disk
+it's a physicial connector, not a specific USB version. its actual speed and cpaabilities depend on the supported USB standard, cable and connected devices.
 
-### Magnetic disk 
+2 different USB-C cable smay look similar but support differents data transfer speeds and power levels
+### 1.3 LIghtning
 
-just as desktop comp, have a plac eto store OS files and user doc we have the same requirements on laptop, many of olers laptop will use tard hard drive or spinning drive =. On dek top 3.5inch drive and laptop smaller 2.5 inch
+Lightning was introduced by Apple to resolve a number of problems with the older USB connection standard. Its commonly used on older Apple device and was designed to replace Apple's older 30-pin connector
 
-this day move away from spinning dirve to SSD (much reliable) emory no moving parts , fast access to this memory , provide relialabitliyt no worries about spinngin drive failing 
-2.5 ionch but newer lapotp => 
-#### M2 
-smaller from factor , simply plug in(easy install and replace). there were conenxion on ssd
+**Key characteristics:**
+- 8 pins 
+- Reversible design : can be inserted in either orientation
+-  24 pins
+- Multiple capabilities : data transfer and power delivery 
 
-#### Replacing laptop storage 
+Smaller and more convenient connecotr accross several mobile devices, but supporting devices from different manufacturers can require multiple types of cables and connector.
 
-easy, all internal , open the covers or the entire laptop
+### 1.4 NFC - Near Field Communication
 
-with m2 , one screw , similar to RAM installation 
+ NFC is often built into your device. 
 
-migratinf hdd -> ssd
-more reliabel fromr and mych faster , almost like getting brand new laptop 
-you can install new os on the ssd and move user document sfrom one to other mannually and reinstall apllication but much more time consuming than doing a backup drive
+**Common uses** :
+- **Contactles payment :** paying at a point-of-sale terminal using smartphone or watch
+- **Access control :** use it as identification to be able to gain access trought a door 
+- **Identification :** Using your phone as a digitak card
+- **Data exchange :** Transferring smal amounts of info from one phont to another
+ 
+### 1.5 Bluetooth
 
-can use a speciale software  - image s or cloning s because we reating an exact duplicate of th edate from one storage drive to the new one 
+Bluetooth allows us to connect devices over a high-speed network at relatively short distances. Often, we refer to this as a **Personal Area Network** or a **PAN**.
 
-manys ssd manufacter will include image software with the ssd, or you can use a thirdparty to copy from one to the other. sometimes create entire image of the software on sperate device. or can install both old and new at the sma etime and sue tha imagin soft to image from on to the other at real time.
+**Common uses :**
+- connecting wireless headphones, headset, wireless keyboards or mice
+- transferring data between devices
+- tethering your smartphone to connect wirelessly
 
-## 802.11 and bluetooth
-Many laptops today don’t even have a separate wired network connection on the laptop itself.
-to have conencitivty -> bluethooth or 802.11
+Bluetooth allow connexion between multiple devices to communicate wirelessly.
 
-usually on th emotherboard itslef, older -> seprate interface cards 
+### 1.6 Hotspot and Tethering
 
-may be usgin 802.11 for local network wc inside building, and may be a mini PCI/PCI express card that provides 802.11 functionnality.
-designed to be modular, can install and uninstall. with small connector ont hem that you plus in th ewireless antennas that are built into your laptop
+Hotspot:  many people connecting to our mobile phone for internet access
 
-Bluetooth = short range communication as PAN or perosnla area netowrk. 
-provided with separate interface cards, but most newer laptops also have this Bluetooth functionality built into the laptop system board itself.
+Tethering : simply have one device that is connecting to this mobile phone, and that is the only device that’s able to use that phone
 
-installation is very similar to the installation of memory.
-
-802.11 => two separate connectors. => main connector and auxilliary
-You might also find a third antenna being used for all of your Bluetooth connections.
-
-commonly wrap aroung th outsie dot he idsplay itsel.
-
-
-## Biometrics
-
-sign in or unlock yout laptop with a finherprnt reader or face reocgnition : need  biometric harware , (fingerprint reader or webcam or builtin)
-
-## NFC 
-
-If you’ve ever paid for something at a point of sale terminal using your phone or your smartwatch, then you were using a network type known as NFC, or Near Field Communication. NFC is a very short-range networking function. So usually you have to be relatively close, often 4 centimeters or less, just to be able to use that function.
-
-And of course, we can use NFC for more than just purchases at a point of sale terminal. We can use this on a hospital workstation so that any nurse that walks up to the workstation is able to authenticate using their access card or their NFC device. This is also used for warehouses, manufacturing, shipping and receiving, and anywhere that you may need to easily authenticate wirelessly
-
-
-## Camera/Webcam
-If you have a laptop, and you’ve used it to be in a meeting, then you’ve probably taken advantage of the camera that is often built into the laptop itself. It’s usually right in the center at the very top of the screen. This not only allows you to capture video to a file, but you can also use it for real-time video on things like a video conference call.
-
-On most laptops, not only will you have the camera right in the middle. But often, there is a microphone to the left and right so that you’re able to not only show the video, but people are able to hear exactly what you’re saying. These built-in cameras are certainly convenient and allow you to use this functionality without carrying around any other equipment. But if you find you need additional functionality or a higher definition camera, you may want to use an external camera and attach it to the top of your laptop display.
+ This is functionality that’s commonly associated with the software in your phone and the capabilities from your phone provider.
